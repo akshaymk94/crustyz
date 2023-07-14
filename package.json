@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Crustyz is a cloud bakery, based out of Alevoor, Udupi. This React Project is responsible to render the Official Business portfolio website of Crustyz.",
   "scripts": {
-    "predeploy": "rm -rf dist && parcel build index.html --public-url /crustyz",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url www.crustyz.in && cp CNAME ./dist",
     "deploy": "gh-pages -d dist",
     "start": "parcel index.html",
     "build": "parcel build index.html",
